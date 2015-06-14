@@ -1,0 +1,3 @@
+$(window).load(() ->
+    new World()
+)

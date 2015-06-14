@@ -1,0 +1,25 @@
+html
+    head
+        link(rel="stylesheet" href="main.css")
+    body
+        script(src="lib/jquery-2.1.3.js")
+        script(src="lib/three.js-r71/build/three.js")
+        script(src="lib/three.js-r71/examples/js/controls/FirstPersonControls.js")
+
+        script(src="lib/physijs/physi.js")
+        script.
+            Physijs.scripts.worker = 'lib/physijs/physijs_worker.js';
+            Physijs.scripts.ammo = 'ammo.js';
+
+        script(src="js/helper.js")
+        script(src="js/main.js")
+        script(src="js/World.js")
+        script(src="js/Objects/BaseObject.js")
+        script(src="js/Objects/Test.js")
+        script(src="js/Objects/FlatTerrain.js")
+        script(src="js/Objects/Building.js")
+        script(src="js/Objects/City.js")
+        script(src="js/Objects/SmallLight.js")
+
+        script(src="js/NewObjects/Floor.js")
+        script(src="js/NewObjects/Ball.js")
